@@ -15,7 +15,7 @@ private String respuesta;
 public boolean execute (String action, final JSONArray args, CallbackContext callbackContext){
 if(action.equals("holaMundo")){
 respuesta = args + saludo;
-callbackContext.sendPluginResult(respuesta);
+callbackContext.success(respuesta);
 }
 
 return true;
