@@ -9,8 +9,8 @@ import android.*;
 
 public class holaFuncion extends CordovaPlugin {
 private CallbackContext callbackContext;
-private string saludo = "ControlesInteligentes";
-private string respuesta;
+private String saludo = "ControlesInteligentes";
+private String respuesta;
 @Override
 public boolean execute (String action, final JSONArray args, CallbackContext callbackContext){
 if(action.equals("holaMundo")){
